@@ -16,7 +16,7 @@ frame.pack()
 image = Image.open("C:\\Users\\lenovo\\Downloads\\Music-Player-master\\Music-Player-master\\im1.jpg")
 
 # Resize the image to fit the window
-image = image.resize((500, 500), Image.ANTIALIAS)
+image = image.resize((501, 500), Image.ANTIALIAS)
 
 # Convert the image to Tkinter-compatible format
 tk_image = ImageTk.PhotoImage(image)
