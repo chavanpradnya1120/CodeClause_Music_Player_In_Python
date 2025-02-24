@@ -6,7 +6,7 @@ from mutagen.id3 import ID3
 from PIL import ImageTk, Image
 
 root = Tk()
-root.minsize(500, 502)
+root.minsize(500, 500)
 
 # Create a frame to hold the content
 frame = Frame(root)
